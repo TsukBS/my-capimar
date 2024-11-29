@@ -3,6 +3,7 @@ header{
     padding: 15px;
     position: fixed; 
 
+    height: 7vh;
     width: 100%;
 
     align-items: center;
@@ -14,7 +15,7 @@ header{
 }
 
 header img{
-    width: 40px;
+    width: 30px;
 }
 
 header img:hover{
@@ -32,7 +33,7 @@ header ul{
 
 ul li{
 
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 header img:hover{
@@ -48,55 +49,3 @@ header ul li:hover{
     color: var(--color-primary-blue);
 }
 
-/*Menu movel*/
-
-.menu-mobile{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 9999;
-    width: 0%;
-    
-
-    background-color: var(--color-primary-darkblue);
-    height: 100vh;
-
-}
-
-.menu-mobile ul{
-    width: 100%;
-    flex-direction: column;
-    text-align: right;
-    gap: 10PX;
-}  
-
-.menu-mobile ul a li{
-    color: white;
-    font-size: 1.5em;
-    font-weight: 300;
-    padding: 20px 10px;
-}
-
-.menu-mobile ul a li:hover{
-    background-color: var(--color-primary-blue);
-    width: 100%;
-    color: var(--color-primary-darkblue);
-}
-
-.menu-mobile .btn-close{
-    padding: 20px 4%;
-}
-
-.menu-mobile .btn-close i{
-    color: var(--color-primary-green);
-    font-size: 30px;
-
-}
-
-.menu-mobile .btn-close i:hover{
-    cursor: pointer;
-    color: var(--color-primary-blue);
-}
