@@ -1,14 +1,17 @@
-#sobre-nos{
+#clientes{
     margin: 0 auto;
-    width: 100%;
-    height: auto;
+    width: 800px;
+    height: 100vh;
     overflow: hidden;
+
 }
 
 .carrossel{
     width: 400%;
-    height: auto;
+    height: 330px;
     display: flex;
+    
+
 }
 
 .carrossel input{
@@ -16,16 +19,108 @@
 }
 
 .container-card{
-    width: 25%;
-    height: auto;
+    width: 20%;
     position: relative;
-    text-align: center;
+    left: 60.5rem;
+    margin-left: 11rem;
+    display: flex;
+    transition: 2s;
+    
 
-
+    
 
 }
 
 
 .container-card img{
-    width: 100%;
+    border-radius: 1rem;
+    width: 500px;
+
+}
+
+
+.nav-manual{
+    position: absolute;
+    width: 50%;
+    right: 9rem;
+    margin-top: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.manual-btn{
+    border: 2px solid rgb(12, 81, 230);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 21px;
+    transition: 0.5s;
+}
+
+
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+
+#radio1:checked ~ .img-primeira{
+    margin-left: 6.7%;
+}
+
+#radio2:checked ~ .img-primeira{
+    margin-left: -17%;
+}
+
+#radio3:checked ~ .img-primeira{
+    margin-left: -43.1%;
+}
+
+#radio4:checked ~ .img-primeira{
+    margin-left: -72.1%;
+}
+
+#radio5:checked ~ .img-primeira{
+    margin-left: -98.3%;
+}
+
+#radio6:checked ~ .img-primeira{
+    margin-left: -124.5%;
+}
+
+
+.nav-auto div{
+    border: 2px solid rgb(195, 223, 188);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 21px;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 50%;
+    right: 9rem;
+    margin-top: 50vh;
+    display: flex;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background-color: white;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background-color: white;
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: white;
+}
+#radio4:checked ~ .nav-auto .auto-btn4{
+    background-color: white;
+}
+#radio5:checked ~ .nav-auto .auto-btn5{
+    background-color: white;
+}
+#radio6:checked ~ .nav-auto .auto-btn6{
+    background-color: white;
 }
